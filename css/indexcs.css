@@ -1,0 +1,476 @@
+@media (min-width: 500px) and (max-width: 1300px) { /*Media query para dispositivos moviles*/
+   #logo{
+        width: 250px;
+    }
+    nav a h1{
+    margin-top: 60px;
+    font-size: 80px;
+    }
+    #jumbo{
+        width: 100%;
+        height: 1000px;
+        background-size: 190% 100%;
+    }
+    #promo{
+      font-size: 75px;
+      text-align:left;
+      padding-top: 400px;
+    }
+    #espacio{
+        padding-top: 80px;
+    }
+    a h3{
+        font-size: 45px;
+    }
+    #promocional{
+        height: 1200px;
+    }
+    #story1,#story2{
+        height: 500px;
+        background-size: 100% 130%;
+        margin-top: 70px;
+    }
+      .what-pp{
+        width: 160px;
+        padding: 15px;
+    }
+    #color-nav, #color-nav-3{
+        height: 150px;
+        background: -moz-linear-gradient(43deg, rgba(206,255,71,1) 0%, rgba(55,128,86,1) 100%); /* ff3.6+ */
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(206,255,71,1)), color-stop(100%, rgba(55,128,86,1))); /* safari4+,chrome */
+        background: -webkit-linear-gradient(43deg, rgba(206,255,71,1) 0%, rgba(55,128,86,1) 100%); /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(43deg, rgba(206,255,71,1) 0%, rgba(55,128,86,1) 100%); /* opera 11.10+ */
+        background: -ms-linear-gradient(43deg, rgba(206,255,71,1) 0%, rgba(55,128,86,1) 100%); /* ie10+ */
+        background: linear-gradient(47deg, rgba(206,255,71,1) 0%, rgba(55,128,86,1) 100%); /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CEFF47', endColorstr='#378056',GradientType=1 ); /* ie6-9 */
+    }
+    #color-nav-2,#color-nav-4{
+        height: 158px;
+        background: -moz-linear-gradient(45deg, rgba(64,245,255,1) 0%, rgba(0,53,128,1) 100%); /* ff3.6+ */
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(64,245,255,1)), color-stop(100%, rgba(0,53,128,1))); /* safari4+,chrome */
+        background: -webkit-linear-gradient(45deg, rgba(64,245,255,1) 0%, rgba(0,53,128,1) 100%); /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(45deg, rgba(64,245,255,1) 0%, rgba(0,53,128,1) 100%); /* opera 11.10+ */
+        background: -ms-linear-gradient(45deg, rgba(64,245,255,1) 0%, rgba(0,53,128,1) 100%); /* ie10+ */
+        background: linear-gradient(45deg, rgba(64,245,255,1) 0%, rgba(0,53,128,1) 100%); /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003580', endColorstr='#40F5FF',GradientType=1 ); /* ie6-9 */
+    }
+    #empresa-mas h3{
+        font-size: 100px;
+        padding-right: 40px;
+        padding-top: 20px;
+    }
+    #story1 h3{
+        font-size: 80px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+     #story1 p{
+        font-size: 33px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #mision, #vision{
+        font-size: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #mision-p, #vision-p{
+        font-size: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #mision{
+        padding-top: 10px;
+    }
+    #ser, #ser2{
+    font-size: 50px;
+   }
+   #serv{
+     height: 3300px;
+     background-size: 190% 170%;
+   }
+   #services h3{
+        font-size: 100px;
+        padding-right: 40px;
+        padding-top: 20px;
+    }
+    #services2 h3,#services3 h3{
+        font-size: 80px;
+        padding-right: 40px;
+        padding-top: 30px;
+    }
+    #color-nav-2{
+        margin-top: 120px;
+    }
+    .card{
+        height: 350px;
+        margin-top: 35px;
+    }
+    .card h5{
+        font-size: 40px;
+    }
+    .card p{
+        font-size: 35px;
+    }
+    .c2{
+        height: 700px;
+    }
+    .btn{
+        font-size: 30px;
+    }
+    #ser2{
+        margin-bottom: 30px;
+    }
+    #empresas{
+        height: 3200px;
+    }
+    #confi{
+        margin-top: 50px !important;
+        height: 170px;
+        border-left: #229954 9px solid;
+    }
+    #confi h3{
+        font-size: 55px;
+        padding-top: 20px;
+    }
+    .imgss{
+        width: 70%;
+        display: block;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    #peli{
+        height: 65%;
+    }
+    #imac{
+        height: 80%;
+    }
+
+}
+@media (min-width: 1024px){
+    #story1,#story2{
+        height: 500px;
+        background-size: 165% 100%;
+        margin-top: 70px;
+    }
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+                              /*Estilo general para toddos los dispositivos*/
+ nav a h1{
+    color: white;
+ }
+ .superior{
+    /*background: rgba(7150, 250, 155, 0.3);*/
+    background: rgba(0, 0, 0, 0.2);
+ }
+ .container2{
+    width: 100%;
+    background-color: #f2f2f2;
+ }
+ #jumbo{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4)
+    ), url(../baner.jpg); 
+ }
+ #promo{
+    color: white;
+ }
+ #con-promo{
+    width: 60%;
+    margin-left: 30px;
+ }
+ .radios{
+    border-radius: 25px;
+ }
+ #promocional{
+    width: 90%;
+    margin:auto;
+ }
+ #story1{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4)
+    ), url(../img/empresa.jpg); 
+ }
+ #story2{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 1)
+    ), url(../img/servicios.jpg); 
+ }
+ .conte{
+    width: 15%;
+    float:left;
+ }
+ #empresa-mas, #services,#services2,#services3{
+    width: 100%;
+    color:white;
+    font-family: arial;
+    text-align: right;
+ }
+ #story1,#story2{
+    -webkit-box-shadow: 12px 22px 26px 8px rgba(92,90,92,0.67);
+-moz-box-shadow: 12px 22px 26px 8px rgba(92,90,92,0.67);
+box-shadow: 12px 22px 26px 8px rgba(92,90,92,0.67);
+ }
+  #story1 p{
+        color: white;
+        text-align: left;
+    }
+  #story1 h3{
+        color: white;
+        text-align: left;
+    }  
+#mision, #mision-p ,#vision ,#vision-p{
+    color: white;
+}  
+#mision{
+    text-align: left;
+}
+#vision{
+    text-align: right;
+}
+#vision-p{
+    text-align: right;
+}
+#mision-p{
+    text-align: left;
+}
+#servicios{
+    width: 70%;
+    margin: auto;
+    margin-top: 53px;
+}
+#serv{
+   background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4)
+    ), url(../img/services.jpg);  
+}
+.servi{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+.card{
+   -webkit-box-shadow: 19px -3px 42px 8px rgba(61,61,61,0.79);
+-moz-box-shadow: 19px -3px 42px 8px rgba(61,61,61,0.79);
+box-shadow: 19px -3px 42px 8px rgba(61,61,61,0.79);
+background-color: #F2F5D6;
+border-left: #229954 9px solid;
+}
+#experiencia{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px; 
+}
+#empresas{
+    width: 100%;  
+}
+#confi{
+    width: 90%;
+    margin:auto;
+    text-align: center;
+    color: #2E4053 ;
+    background-color: #7dcea0; 
+    font-family: arial;
+}
+.marcoE{
+    width: 90%;
+    margin:auto;
+    margin-top: 100px;
+}
+.marcoE2{
+    width: 90%;
+    margin:auto;
+    margin-top: 2px;
+}
+#feed{
+    width: 100%;
+    height: 730px;
+    overflow: scroll;
+    background-color: #f2f2f2;
+}
+.pofa{
+    width: 40%; float: left;  margin-left: 160px; margin-top: 30px;
+}
+footer{
+    background-color: #013098;
+}
+/*----------------------------------------------------------------------------------------------------------*/
+
+
+@media (min-width: 1320px) and (max-width: 2700px){    /*Media query para pantallas de computadoras*/
+    #logo{
+        width: 150px;
+    }
+     nav a h1{
+        margin-top: 35px;
+        font-size: 50px;
+    }
+    .card{
+        height: 200px;
+    }
+     #jumbo{
+        width: 100%;
+        height: 900px;
+        background-size: 110% 110%;
+    }
+    #promo{
+      font-size: 80px;
+      text-align: left;
+      padding-top: 300px;
+    }
+     #espacio{
+        padding-top: 210px;
+    }
+    #promocional{
+        height: 770px;
+    }
+     #story1{
+        height: 500px;
+        background-size: 100% 130%;
+        margin-top: 50px;
+    }
+    #story2{
+        height: 500px;
+        background-size: 120% 130%;
+        margin-top: 50px;
+    }
+    .what-pp{
+        width: 100px;
+        padding: 15px;
+    }
+    .what-pp:hover{
+        width: 125px;
+        transition-delay: 0.2s;
+        transition-duration: 0.2s;
+    }
+    #color-nav,#color-nav-3{
+        height: 158px;
+        background: -moz-linear-gradient(43deg, rgba(206,255,71,1) 0%, rgba(55,128,86,1) 100%); /* ff3.6+ */
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(206,255,71,1)), color-stop(100%, rgba(55,128,86,1))); /* safari4+,chrome */
+        background: -webkit-linear-gradient(43deg, rgba(206,255,71,1) 0%, rgba(55,128,86,1) 100%); /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(43deg, rgba(206,255,71,1) 0%, rgba(55,128,86,1) 100%); /* opera 11.10+ */
+        background: -ms-linear-gradient(43deg, rgba(206,255,71,1) 0%, rgba(55,128,86,1) 100%); /* ie10+ */
+        background: linear-gradient(47deg, rgba(206,255,71,1) 0%, rgba(55,128,86,1) 100%); /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CEFF47', endColorstr='#378056',GradientType=1 ); /* ie6-9 */
+    }
+    #color-nav-2, #color-nav-4{
+        height: 158px;
+        background: -moz-linear-gradient(45deg, rgba(64,245,255,1) 0%, rgba(0,53,128,1) 100%); /* ff3.6+ */
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(64,245,255,1)), color-stop(100%, rgba(0,53,128,1))); /* safari4+,chrome */
+        background: -webkit-linear-gradient(45deg, rgba(64,245,255,1) 0%, rgba(0,53,128,1) 100%); /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(45deg, rgba(64,245,255,1) 0%, rgba(0,53,128,1) 100%); /* opera 11.10+ */
+        background: -ms-linear-gradient(45deg, rgba(64,245,255,1) 0%, rgba(0,53,128,1) 100%); /* ie10+ */
+        background: linear-gradient(45deg, rgba(64,245,255,1) 0%, rgba(0,53,128,1) 100%); /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003580', endColorstr='#40F5FF',GradientType=1 ); /* ie6-9 */
+    }
+    #services h3,#services2 h3,#services3 h3{
+        font-size: 70px;
+        padding-right: 40px;
+        padding-top: 37px;
+    }
+    #empresa-mas h3{
+        font-size: 70px;
+        padding-right: 40px;
+        padding-top: 37px;
+    }
+     #story1 h3{
+        font-size: 70px;
+        padding-top: 140px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+     #story1 p{
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #mision, #vision{
+        font-size: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #mision-p, #vision-p{
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #mision{
+        padding-top: 70px;
+    }
+   #ser,#ser2{
+    font-size: 28px;
+   }
+   #serv{
+     height: 800px;
+     background-size: 100% 160%;
+   }
+   #empresas{
+     height: 970px;
+   }
+    #ser2{
+        margin-bottom: 30px;
+    }
+    #confi{
+        margin-top: 40px;
+        height: 100px;
+        border-left: #229954 9px solid;
+    }
+    #confi h3{
+        font-size: 50px;
+        padding-top: 20px;
+    }
+    .imgss{
+        width: 90%;
+        display: block;
+        margin:auto;
+    }
+    #peli{
+        height: 65%;
+    }
+    #cemex{
+        height: 65%;
+        width: 103%;
+    }
+    #cfe{
+        height: 65%;
+        width: 100%;
+    }
+    #imac,#olimpo{
+        height: 90%;
+    }
+    
+    #ms{
+        width: 100%;
+    }
+    footer{
+        height: 300px;
+    }
+    footer p{
+        color: white;
+        font-size: 30px;
+    }
+    #fot{
+        width: 40%;
+    }
+    #f1{
+        padding: 40px;
+        
+    }
+    #f2 p{
+        text-align: center;
+        padding: 40px;
+    }
+    #f3 p{
+
+        text-align: center;
+        padding: 40px;
+    }
+}
+ 

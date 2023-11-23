@@ -1,0 +1,172 @@
+@media (min-width: 500px) and (max-width: 1300px) { /*Media query para dispositivos moviles*/
+   #logo{
+        width: 250px;
+    }
+    nav a h1{
+    margin-top: 60px;
+    font-size: 80px;
+    }
+    .titulos{
+        height: 250px;
+    }
+    #beneficios h3, #sobre h2{
+        font-size: 70px;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    #sobre h2{
+        padding-top: 85px;
+    }
+    #beneficiosC{
+        height: 900px;
+        font-size: 42px;
+    }
+    #sobres{
+        height: 1000px;
+        font-size: 34px;
+    }
+    #beneficiosC ul{
+        padding-top: 37px;
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    #sobres p{
+        padding: 30px;
+    }
+    #jumbo{
+     height: 400px;
+     background-size: 150% 250%;
+   }
+   #etiqueta{
+    margin-top: 150px;
+   }
+   #etiqueta h2{
+     font-size: 50px;
+   }
+   #reno{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+}
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+                              /*Estilo general para toddos los dispositivos*/
+
+body{
+    /*background-color: #9DE4F6;*/
+    background-color: #D0ECE7;
+}
+ nav a h1{
+    color: white;
+
+ }
+ .superior{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.7)
+    ), url('img/bennerEnergy.jpg'); 
+ }
+ .titulos{
+       width: 90%;
+       margin: auto;
+       margin-top: 20px;
+       border-radius: 0px 30px 0px 30px;
+
+  }
+  #beneficios{
+    background-color: #239B56;
+    color: white;
+    font-family: arial;
+    text-align: left;
+  }
+  .contenidos{
+    width: 90%;
+    margin:auto;
+    margin-top: 20px;
+  }
+  #beneficiosC, #sobres{
+    background-color: #F39C12;
+    color: white;
+  }
+  #jumbo{
+    width: 100%;
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4)
+    ), url('img/banner2.jpg');
+  }
+ #jumbo h2{
+    color: white;
+    text-align: center;
+ }
+#etiqueta{
+    background-color: #2596DC;
+    border-radius: 20px 20px 20px 20px;
+}
+#sobre{
+    background-color: #F1C40F;
+    color: white;
+    font-family: arial;
+    text-align: left;
+  }
+  #reno img{
+    display: block;
+    width: 100%;
+    margin:auto;
+  }
+/*----------------------------------------------------------------------------------------------------------*/
+
+
+@media (min-width: 1320px) and (max-width: 2700px){    /*Media query para pantallas de computadoras*/
+    #logo{
+        width: 150px;
+    }
+     nav a h1{
+        margin-top: 35px;
+        font-size: 50px;
+    }
+    .superior{
+        background-size: 40% 102%;
+    }
+    .titulos{
+        height: 150px;
+    }
+    #beneficios h3, #sobre h2{
+        font-size: 50px;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    #beneficiosC{
+        height: 400px;
+        font-size: 30px;
+    }
+    #sobres{
+        padding:20px;
+        height: 520px;
+        font-size: 32px;
+    }
+    #beneficiosC ul{
+        padding-top: 37px;
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+   #jumbo{
+     height: 400px;
+     background-size: 100% 250%;
+   }
+   #etiqueta{
+    margin-top: 170px;
+   }
+   #reno{
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+}

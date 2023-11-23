@@ -1,0 +1,103 @@
+@media (min-width: 500px) and (max-width: 1300px) { /*Media query para dispositivos moviles*/
+   #logo{
+        width: 250px;
+    }
+    nav a h1{
+    margin-top: 60px;
+    font-size: 80px;
+    }
+    #esquema{
+      margin-top: 40px;
+      height: 2500px;
+    }
+    #titulo h3{
+      padding-top: 15px;
+      font-size: 140px;
+    }
+    #titulo{
+      height: 200px;
+    }
+    #formulario{
+      padding:30px;
+    }
+    .labs{
+      font-size: 50px;
+    }
+    .inps{
+      font-size: 45px;
+    }
+    .bt{
+      font-size: 60px;
+      margin-top: 50px;
+    }
+}
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+                              /*Estilo general para toddos los dispositivos*/
+
+ nav a h1{
+    color: white;
+
+ }
+ .superior{
+    background-color: #08B852;
+ }
+ #esquema{
+  width: 90%;
+  margin:auto;
+  background-color: #003098;
+ }
+ #titulo{
+    width: 100%;
+    background-color: #6390EA ;
+ }
+ #titulo h3{
+   text-align: center;
+   color: white;
+ }
+ .labs{
+  color: white;
+  font-family: arial;
+ }
+ #tablas{
+   height: 500px;
+ }
+ 
+/*----------------------------------------------------------------------------------------------------------*/
+
+
+@media (min-width: 1320px) and (max-width: 2700px){    /*Media query para pantallas de computadoras*/
+    #logo{
+        width: 150px;
+    }
+     nav a h1{
+        margin-top: 35px;
+        font-size: 50px;
+    }
+    #esquema{
+      margin-top: 30px;
+       height: 1300px;
+    }
+    #titulo h3{
+      padding-top: 10px;
+      font-size: 70px;
+    }
+    #titulo{
+      height: 100px;
+    }
+    #formulario{
+      padding:30px;
+    }
+    .labs{
+      font-size: 30px;
+    }
+    .inps{
+      font-size: 25px;
+    }
+    .bt{
+      font-size: 30px;
+      margin-top: 20px;
+    }
+}
